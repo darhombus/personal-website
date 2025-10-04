@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="nav-container">
+      <div class="logo">Personal website</div>
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#personal">Personal Details</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#links">Favorite Links</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <section id="home">
+    <h1>Welcome to My Personal Website</h1>
+    <p>Hello! My name is Shawn Kathuri, and this is my personal website. Scroll or use the Navigation  Bar to explore!</p>
+  </section>
+
+  <!-- Personal Details -->
+  <section id="personal">
+    <div class="content">
+        <h2>Personal Details</h2>
+        <div class="card single-card">
+            <p><b>Name:</b> Shawn Kathuri</p>
+            <p><b>Gender:</b> Male</p>
+            <p><b>Date of Birth:</b> December 28, 2004</p>
+            <p><b>Occupaton:</b> Student</p>
+        </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <div class="content">
+        <h2>Educational Background</h2>
+        <div class="card-container">
+            <div class="card">
+                <h3>BSc in Applied Computer Technology</h3>
+                <p>United States International University</p>
+                <p>2023 - Present</p>
+            </div>
+            <div class="card">
+                <h3>High School Diploma</h3>
+                <p>Pioneer Boy's School</p>
+                <p>2019 - 2022</p>
+            </div>
+        </div>
+        
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <div class="content">
+        <h2>Professional Experience</h2>
+        <div class="card-container">
+            <div class="card">
+                <h3>Student</h3>
+                <p>USIU</p>
+                <p>2023 - Present</p>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Hobbies -->
+  <section id="hobbies">
+    <div class="content">
+        <h2>Hobbies</h2>
+        <div class="card-container">
+            <div class="card">Baking</div>
+            <div class="card">Playing Computer Games</div>
+            <div class="card">Watching Documentaries</div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Links -->
+  <section id="links">
+    <div class="content">
+        <h2>Favorite Links</h2>
+        <div class="card-container">
+            <div class="card"><a href="https://www.youtube.com" target="_blank">Youtube</a></div>
+            <div class="card"><a href="https://www.instagram.com" target="_blank">Instagram</a></div>
+            <div class="card"><a href="https://www.geoguessr.com" target="_blank">Geoguessr</a></div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery">
+    <div class="content">
+        <h2>Pictorial Profile</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="\public\image1.jpg" alt="Gallery Image 1" class="lightbox-img">
+                <p>Gallery Image 1</p>
+            </div>
+            <div class="card">
+                <img src="\public\image2.jpg" alt="Gallery Image 2" class="lightbox-img">
+                <p>Gallery Image 2</p>
+            </div>
+            <div class="card">
+                <img src="\public\image3.jpg" alt="Gallery Image 3" class="lightbox-img">
+                <p>Gallery Image 3</p>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Overlay -->
+  <div id="lightbox">
+    <span id="close">&times;</span>
+    <span id="prev">&#10094;</span>
+    <img id="lightbox-content" src="">
+    <span id="next">&#10095;</span>
+    <p id="caption"></p>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Shawn Kathuri. All rights reserved.</p>
+  </footer>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
